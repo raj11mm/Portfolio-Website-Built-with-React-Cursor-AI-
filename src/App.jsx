@@ -5,6 +5,13 @@ function App() {
   return (
     <main className="portfolio">
       <header className="hero">
+        <div className="hero-graphics" aria-hidden="true">
+          <span className="orb orb-a"></span>
+          <span className="orb orb-b"></span>
+          <span className="orb orb-c"></span>
+          <span className="beam beam-a"></span>
+          <span className="beam beam-b"></span>
+        </div>
         <div className="hero-top">
           <div>
             <p className="label">Full Stack Developer</p>
@@ -26,6 +33,12 @@ function App() {
           <a href="tel:+919771147596">+91 9771147596</a>
           <a href="mailto:rajthisside1609@gmail.com">rajthisside1609@gmail.com</a>
           <span>Bengaluru, Karnataka</span>
+        </div>
+        <div className="graphic-chips" aria-hidden="true">
+          <span>{'</>'}</span>
+          <span>{'{ API }'}</span>
+          <span>{'SQL'}</span>
+          <span>{'UI/UX'}</span>
         </div>
         <div className="contact-row">
           <a

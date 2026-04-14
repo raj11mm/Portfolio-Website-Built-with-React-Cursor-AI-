@@ -119,6 +119,68 @@ body::after {
   animation: riseUp 800ms ease-out both;
 }
 
+.hero-graphics {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.orb,
+.beam {
+  position: absolute;
+  display: block;
+}
+
+.orb {
+  border-radius: 999px;
+  border: 1px solid rgba(148, 163, 184, 0.15);
+  background: radial-gradient(circle at 30% 30%, rgba(15, 23, 42, 0.8), rgba(2, 6, 23, 0.35));
+}
+
+.orb-a {
+  width: 120px;
+  height: 120px;
+  top: -28px;
+  right: 150px;
+  animation: slowFloat 8s ease-in-out infinite;
+}
+
+.orb-b {
+  width: 72px;
+  height: 72px;
+  top: 85px;
+  right: 35px;
+  animation: slowFloat 7s ease-in-out infinite reverse;
+}
+
+.orb-c {
+  width: 44px;
+  height: 44px;
+  bottom: 34px;
+  left: 38px;
+  animation: slowFloat 9s ease-in-out infinite;
+}
+
+.beam {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(148, 163, 184, 0.28), transparent);
+}
+
+.beam-a {
+  width: 220px;
+  top: 42px;
+  left: -25px;
+  transform: rotate(13deg);
+}
+
+.beam-b {
+  width: 180px;
+  bottom: 26px;
+  right: -35px;
+  transform: rotate(-15deg);
+}
+
 .hero::before {
   content: '';
   position: absolute;
@@ -251,6 +313,26 @@ h1 {
   transform: translateY(-2px);
   border-color: #4f67a3;
   box-shadow: 0 8px 22px rgba(59, 130, 246, 0.25);
+}
+
+.graphic-chips {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  gap: 0.55rem;
+  margin-top: 0.9rem;
+  flex-wrap: wrap;
+}
+
+.graphic-chips span {
+  color: #cbd5e1;
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border: 1px solid #2f3749;
+  background: linear-gradient(180deg, #171c28, #131825);
+  border-radius: 999px;
+  padding: 0.32rem 0.62rem;
 }
 
 .card {
@@ -514,6 +596,16 @@ p {
   }
   100% {
     transform: translate(-2%, 2%) scale(1.04);
+  }
+}
+
+@keyframes slowFloat {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-7px);
   }
 }
 
