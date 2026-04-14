@@ -55,7 +55,12 @@ function App() {
         </div>
       </header>
 
-      <section className="card">
+      <section className="card skills-section">
+        <div className="section-graphics" aria-hidden="true">
+          <span>Java + Spring Boot + React + MySQL</span>
+          <span>cleanCode(); debug(); optimize(); deploy();</span>
+          <span>{'OOPs | REST APIs | JWT | Database Design'}</span>
+        </div>
         <h2>Skills</h2>
         <div className="grid two">
           <article>
