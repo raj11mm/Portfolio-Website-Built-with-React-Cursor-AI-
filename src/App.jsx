@@ -72,7 +72,7 @@ function App() {
       <section className="card">
         <h2>Projects</h2>
         <div className="grid">
-          <article className="project">
+          <article className="project project-rajify">
             <h3>RAJify - Full-Stack E-commerce Web Application</h3>
             <p className="meta">Apr 2026 - Apr 2026</p>
             <p>
@@ -83,7 +83,7 @@ function App() {
               Tech Stack: Java, Spring Boot, HTML, CSS, JavaScript
             </p>
           </article>
-          <article className="project">
+          <article className="project project-sales">
             <h3>Sales Savvy - Full Stack E-commerce Application</h3>
             <p className="meta">Jan 2026 - Mar 2026</p>
             <p>
@@ -95,7 +95,7 @@ function App() {
               Tech Stack: Java, Spring Boot, React.js, JWT, MySQL
             </p>
           </article>
-          <article className="project">
+          <article className="project project-pglife">
             <h3>PGLife - Smart PG Listings Platform</h3>
             <p className="meta">Mar 2024 - Apr 2024</p>
             <p>
@@ -111,7 +111,7 @@ function App() {
 
       <section className="card experience-section">
         <h2>Experience</h2>
-        <article className="item">
+        <article className="item exp-kodnest">
           <h3>Software Development Intern - Kodnest Technologies</h3>
           <p className="meta">Aug 2025 - Present | Bengaluru, Karnataka</p>
           <p>
@@ -119,7 +119,7 @@ function App() {
             and manual testing while contributing to real-world projects.
           </p>
         </article>
-        <article className="item">
+        <article className="item exp-cloud">
           <h3>Cloud Computing Internship - Ardent Computech Pvt Ltd</h3>
           <p className="meta">Sep 2024 - Oct 2024</p>
           <p>
@@ -127,7 +127,7 @@ function App() {
             fulfilling company project criteria and training milestones.
           </p>
         </article>
-        <article className="item">
+        <article className="item exp-internshala">
           <h3>Web Development Training - Internshala</h3>
           <p>
             Completed Web Development training at Internshala, building

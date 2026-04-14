@@ -329,6 +329,48 @@ ul {
   background: linear-gradient(155deg, #1d2435, #171d2b);
 }
 
+.project-rajify {
+  border-color: rgba(59, 130, 246, 0.55);
+  background:
+    linear-gradient(155deg, #1a2235, #171d2b),
+    radial-gradient(circle at top right, rgba(59, 130, 246, 0.25), transparent 55%);
+}
+
+.project-sales {
+  border-color: rgba(236, 72, 153, 0.55);
+  background:
+    linear-gradient(155deg, #2a1a2a, #1f1725),
+    radial-gradient(circle at top right, rgba(236, 72, 153, 0.22), transparent 55%);
+}
+
+.project-pglife {
+  border-color: rgba(16, 185, 129, 0.55);
+  background:
+    linear-gradient(155deg, #172627, #142123),
+    radial-gradient(circle at top right, rgba(16, 185, 129, 0.2), transparent 55%);
+}
+
+.exp-kodnest {
+  border-color: rgba(245, 158, 11, 0.55);
+  background:
+    linear-gradient(155deg, #2a2217, #221d14),
+    radial-gradient(circle at top right, rgba(245, 158, 11, 0.2), transparent 55%);
+}
+
+.exp-cloud {
+  border-color: rgba(56, 189, 248, 0.55);
+  background:
+    linear-gradient(155deg, #172330, #141f2a),
+    radial-gradient(circle at top right, rgba(56, 189, 248, 0.22), transparent 55%);
+}
+
+.exp-internshala {
+  border-color: rgba(168, 85, 247, 0.55);
+  background:
+    linear-gradient(155deg, #221a30, #1d1728),
+    radial-gradient(circle at top right, rgba(168, 85, 247, 0.22), transparent 55%);
+}
+
 .experience-section .item {
   margin-top: 0.95rem;
 }
